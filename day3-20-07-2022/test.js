@@ -35,5 +35,23 @@ console.log(typeof z); */ // typeOf operator
 let x = 29 % 9;
 console.log(x);
 
-let age = 25 + " years old";
-console.log(typeof age);
+//let age = 25 + " years old";
+// console.log(typeof age);
+
+let s = 16 + "Volvo";
+console.log(typeof s);
+
+// JavaScript Booleans
+let l = 5;
+let y = 5;
+let z = 6;
+console.log(l == y);
+console.log(l == z);
+
+
+// JavaScript Arrays
+const cars = ["Saab", "Volvo", "BMW"];
+console.log([0]);
+
+let age = "He is" + (2021 - 1990) + "Years Old";
+console.log(age);
